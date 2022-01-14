@@ -1,7 +1,7 @@
 const Counter = {
   init(){
     const counter = document.getElementById('landing-counter')
-    let initialValue = 1
+    let initialValue = 5
     counter.innerText = initialValue
 
     const interval = setInterval(() => {

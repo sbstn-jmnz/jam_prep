@@ -3,7 +3,7 @@ const Survey = {
     var modal = new bootstrap.Modal(document.querySelector('.modal'))
     setTimeout(()=>{
       modal.show()
-    }, 1000)
+    }, 6000)
   }
 }
 
