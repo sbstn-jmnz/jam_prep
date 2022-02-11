@@ -7,81 +7,20 @@
      <!-- Bootstrap CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet"> 
     <!-- icons -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   </head>
   <body>
     {% include navbar.html %}
     {% include header.html %}
-<!-- Content section 1-->
-<section id="scroll">
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center" role="button" dissabled>
-            <div class="col-lg-6 order-lg-2">
-                <div class="p-5"><img class="img-fluid rounded-circle" src="https://res.cloudinary.com/boolean-spa/image/upload/v1602262534/design-systems-fundamentals_g3pvti.jpg" alt="..." /></div>
-            </div>
-            <div class="col-lg-6 order-lg-1">
-                <div class="p-5">
-                    <h2 class="display-4">Super junior...</h2>
-                    <p>Encontrar el error en el pull request bla bla bla y ayudar al PO a entender.
-                        Puede ser bajar el código y debuggear un error, un test que falla. Deberá entender el proyecto y
-                        encontrar dónde está el problema ...</p>
-                    <a href="/problem">GO!</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Content section 2-->
-<section>
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center" role="button" dissabled>
-            <div class="col-lg-6">
-                <div class="p-5"><img class="img-fluid rounded-circle" src="https://res.cloudinary.com/boolean-spa/image/upload/v1592493810/frontend-testing_tf3juf.png" alt="..." /></div>
-            </div>
-            <div class="col-lg-6">
-                <div class="p-5">
-                    <h2 class="display-4">Repartir las medicinas</h2>
-                    <p>Desarrollar un algoritmo que reparta de la mejor manera cierto recurso a los más necesitados!</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Content section 3-->
-<section>
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-6 order-lg-2">
-                <div class="p-5"><img class="img-fluid rounded-circle" src="https://res.cloudinary.com/boolean-spa/image/upload/v1589763534/javascript_nufpzj.jpg" alt="..." /></div>
-            </div>
-            <div class="col-lg-6 order-lg-1">
-                <div class="p-5">
-                    <h2 class="display-4">Refactorización!</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Content section 2-->
-<section>
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-6">
-                <div class="p-5"><img class="img-fluid rounded-circle" src="https://res.cloudinary.com/boolean-spa/image/upload/v1623732986/Cyborgtransparent_lx7wnm.png" alt="..." /></div>
-            </div>
-            <div class="col-lg-6">
-                <div class="p-5">
-                    <h2 class="display-4">De cero a prod!</h2>
-                    <p>Una webapp que permita a los usuarios ingresar sus necesidades para los próximos meses durante la catástrofe. El resultado debe ser una url en producción</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-  {{ content }}
+    {{ content }}
+
+    {% include modal.html %}
 
   {% include footer.html %}
     <!-- Option 1: Bootstrap Bundle with Popper -->
