@@ -1,12 +1,12 @@
 @font-face {
   font-family: lemon;
-  src: url("/assets/fonts/lemon.otf"); }
-
+  font-weight: bold;
+  src: url("/assets/fonts/lemon.otf") format("opentype"); }
 html {
   scroll-padding-top: 67px; }
 
 body {
-  font-family: 'lemon' }
+  font-family: 'Sofadi One', cursive; }
 
 .btn-xl {
   text-transform: uppercase;
