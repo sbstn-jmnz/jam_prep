@@ -1,3 +1,7 @@
+@font-face {
+  font-family: lemon;
+  font-weight: bold;
+  src: url("/assets/fonts/lemon.otf") format("opentype"); }
 html {
   scroll-padding-top: 67px; }
 
@@ -52,14 +56,15 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(0deg, #71d2f8 0%, #449bff 100%); }
+  background: #020024;
+  background: radial-gradient(circle, #020024 0%, #090979 35%, #00d4ff 100%); }
 
 header.masthead .bg-circle-2 {
   height: 50rem;
   width: 50rem;
   top: -25rem;
   right: -25rem;
-  background: linear-gradient(0deg, #fffb1a 0%, #fffc44 100%); }
+  background: linear-gradient(0deg, #dbda74 0%, #dad879 100%); }
 
 header.masthead .bg-circle-3 {
   height: 20rem;
