@@ -1,8 +1,7 @@
 @font-face {
   font-family: lemon;
   font-weight: bold;
-  src: url("/assets/fonts/lemon.otf"); }
-
+  src: url("/assets/fonts/lemon.otf") format("opentype"); }
 html {
   scroll-padding-top: 67px; }
 
