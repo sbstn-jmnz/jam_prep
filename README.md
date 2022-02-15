@@ -14,6 +14,7 @@
 ## Tipografías. ok
 
 ## La bajada.
+"Talleres terapéuticos para niños y adolecentes"
 
 ## Tarjetas y popups por cada taller y botón de pago.
 
