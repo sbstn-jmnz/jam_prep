@@ -1,7 +1,6 @@
 @font-face {
   font-family: lemon;
-  font-weight: bold;
-  src: url("/assets/fonts/lemon.otf") format("opentype");
+  src: url("/assets/fonts/lemon.otf");
 }
 
 html {
@@ -9,7 +8,7 @@ html {
 }
 
 body {
-  font-family: 'Sofadi One', cursive;
+  font-family: 'lemon';
 }
 
 .btn-xl {
