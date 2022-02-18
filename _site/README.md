@@ -33,3 +33,12 @@
 
 ## Formulario de contacto de anamnésis
 
+## Reunión 16 de febrero
+
+hola@puertoeducar.cl
+
+## Sacar misión y actualizar con lo nuevo del ppt
+
+## Quitar el sol
+
+## Agregar los CVs
