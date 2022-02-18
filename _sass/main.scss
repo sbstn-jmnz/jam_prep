@@ -7,8 +7,12 @@ html {
   scroll-padding-top: 67px;
 }
 
-body {
+h1,h2,h3,h4 {
   font-family: 'lemon';
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
 }
 
 .btn-xl {
@@ -94,4 +98,19 @@ header.masthead .bg-circle-3 {
   margin: 0;
   text-indent: 2rem;
   text-align: justify;
+}
+
+.whatsapp__float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
 }
