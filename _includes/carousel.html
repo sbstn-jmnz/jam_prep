@@ -6,28 +6,29 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
 
-  <div class="carousel-inner">
+  <div class="carousel-inner" style="width:100%; height: 450px !important;">
 
     <div class="carousel-item active pt-5">
       <div class="container pt-5">
-        <img src="/assets/img/{{ page.image }}" alt="" class="img-fluid">
+        <img src="/assets/img/{{ page.image }}" alt="" class="img-fluid" style="max-width: 250px;">
         <h2 class="masthead-subheading mb-0">{{ page.subtitle }}</h2>
+        <a href="/talleres" class="btn btn-light btn-lg mt-3">TALLERES</a>
       </div>
     </div>
 
     <div class="carousel-item pt-5">
       <div class="container pt-5">
-        <img src="/assets/img/navegando_juntos.png" alt="" class="img-fluid rounded" style="max-height: 380px">
+        <img src="/assets/img/navegando_juntos.png" alt="" class="img-fluid rounded" style="max-width: 250px">
         <h2 class="mb-0 pt-4 fs-1">!Recupérate de la pandemia con nuestros talleres¡</h2>
-        <a href="/talleres" class="btn btn-light btn-lg mt-5">Talleres</a>
+        <a href="/talleres" class="btn btn-light btn-lg mt-3">TALLERES</a>
       </div>
     </div>
 
     <div class="carousel-item pt-5">
       <div class="container pt-5">
-        <img src="/assets/img/avión.png" class="img-fluid rounded" alt="...">
-          <h2 class="mb-0 pt-4 fs-1">Adelántante a Marzo</h2>
-          <p class="fs-3">Todos nuestros talleres con descuento antes del 15 de marzo</p>
+        <img src="/assets/img/avión.png" class="img-fluid rounded" alt="..." style="max-width: 150px">
+          <p class="fs-4">Todos nuestros talleres con <span class="text-warning"> descuento</span> antes del 15 de marzo</p>
+          <a href="/talleres" class="btn btn-light btn-lg mt-3">TALLERES</a>
       </div>
     </div>
 
